@@ -11,6 +11,7 @@ PODS:
   - Prephirences/Core (3.0.1)
   - Prephirences/Keys (3.0.1):
     - Prephirences/Core
+  - TTTAttributedLabel (2.0.0)
 
 DEPENDENCIES:
   - Alamofire (~> 4.4)
@@ -18,6 +19,7 @@ DEPENDENCIES:
   - OAuthSwift (~> 1.1.0)
   - OAuthSwiftAlamofire
   - Prephirences
+  - TTTAttributedLabel
 
 SPEC CHECKSUMS:
   Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
@@ -25,7 +27,8 @@ SPEC CHECKSUMS:
   OAuthSwift: 6e3a103b3e5639411769cc7e199ec7e14bd1547f
   OAuthSwiftAlamofire: 20bb998ac506f82c3bab0625fbc98a9c6fca783f
   Prephirences: d0ec0bd6047edb3370364345857a769aaf3db312
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
 
-PODFILE CHECKSUM: 38e185f2377793d365d59360b6d53715dc0c598e
+PODFILE CHECKSUM: 3071ccde85a47b2bc63469d12d415ccaada32dbe
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.2.1

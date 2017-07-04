@@ -15,8 +15,8 @@ import KeychainAccess
 class APIManager: SessionManager {
     
     // MARK: TODO: Add App Keys
-    static let consumerKey = "YOUR_KEY_HERE"
-    static let consumerSecret = "YOUR_SECRET_HERE"
+    static let consumerKey = "PNEt7O7h9dO3dZTwClHCxiKpq"
+    static let consumerSecret = "uAQzJIqC6G3idCinugN11Tsq4QYgkNT2nMOH9xUEYe6M1Q5Gzc"
     
     static let requestTokenURL = "https://api.twitter.com/oauth/request_token"
     static let authorizeURL = "https://api.twitter.com/oauth/authorize"
@@ -57,6 +57,16 @@ class APIManager: SessionManager {
 
         NotificationCenter.default.post(name: NSNotification.Name("didLogout"), object: nil)
     }
+    
+//    static func logout() {
+//        // 1. Clear current user
+//        User.current = nil
+//        
+//        // TODO: 2. Deauthorize OAuth tokens
+//        
+//        // 3. Post logout notification
+//        NotificationCenter.default.post(name: NSNotification.Name("didLogout"), object: nil)
+//    }
     
     func getCurrentAccount(completion: @escaping (User?, Error?) -> ()) {
         request(URL(string: "https://api.twitter.com/1.1/account/verify_credentials.json")!)
