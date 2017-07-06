@@ -275,7 +275,16 @@
                                         <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outlet property="delegate" destination="wf6-Hv-BhR" id="7YK-si-Udx"/>
+                                </connections>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="140" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nyw-Vl-kTm">
+                                <rect key="frame" x="8" y="317" width="28.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -285,11 +294,14 @@
                             <constraint firstItem="PRu-JQ-e35" firstAttribute="centerY" secondItem="Efv-bF-U0q" secondAttribute="centerY" id="Z0p-Sf-w6X"/>
                             <constraint firstItem="Efv-bF-U0q" firstAttribute="leading" secondItem="Hyw-Ph-q7u" secondAttribute="leading" constant="8" id="bwo-8z-WLy"/>
                             <constraint firstItem="VNc-La-JSx" firstAttribute="top" secondItem="Efv-bF-U0q" secondAttribute="bottom" constant="54" id="eTq-GG-RH9"/>
+                            <constraint firstItem="nyw-Vl-kTm" firstAttribute="leading" secondItem="Hyw-Ph-q7u" secondAttribute="leading" constant="8" id="gAG-Ma-zF2"/>
                             <constraint firstItem="Efv-bF-U0q" firstAttribute="top" secondItem="6fh-JA-Gvz" secondAttribute="bottom" constant="8" id="lvt-Rl-diP"/>
                             <constraint firstAttribute="trailing" secondItem="PRu-JQ-e35" secondAttribute="trailing" constant="8" id="tIE-kj-i2Z"/>
+                            <constraint firstItem="nyw-Vl-kTm" firstAttribute="top" secondItem="VNc-La-JSx" secondAttribute="bottom" constant="3" id="tRx-mE-yCm"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="characterCount" destination="nyw-Vl-kTm" id="2UO-1N-gZl"/>
                         <outlet property="composeTextView" destination="VNc-La-JSx" id="Gec-gi-ejV"/>
                     </connections>
                 </viewController>
