@@ -42,6 +42,9 @@ class ComposeViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        let myColor: UIColor = UIColor.black
+        composeTextView!.layer.borderWidth = 1
+        composeTextView!.layer.borderColor = myColor.cgColor
     }
 
     override func didReceiveMemoryWarning() {
