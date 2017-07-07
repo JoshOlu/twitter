@@ -105,6 +105,8 @@ class TweetCell: UITableViewCell {
             if tweet.user.imageURL != nil {
                 profileImage.af_setImage(withURL: tweet.user.imageURL!)
             }
+            profileImage.layer.masksToBounds = true
+            profileImage.layer.cornerRadius = profileImage.frame.height/2
         }
     }
     

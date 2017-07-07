@@ -53,7 +53,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="32.799999999999997" y="37.331334332833585"/>
+            <point key="canvasLocation" x="158" y="36"/>
         </scene>
         <!--Home Timeline-->
         <scene sceneID="5vf-Kh-7ye">
@@ -232,7 +232,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZlF-i2-Ves" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1660" y="36.431784107946029"/>
+            <point key="canvasLocation" x="1562" y="36"/>
         </scene>
         <!--Compose View Controller-->
         <scene sceneID="gYe-dz-R1Y">
@@ -247,8 +247,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PRu-JQ-e35">
-                                <rect key="frame" x="336" y="28" width="31" height="30"/>
-                                <state key="normal" title="Post"/>
+                                <rect key="frame" x="325" y="28" width="42" height="30"/>
+                                <state key="normal" title="Tweet"/>
                                 <connections>
                                     <action selector="postButton:" destination="wf6-Hv-BhR" eventType="touchUpInside" id="Deq-kS-Wz0"/>
                                 </connections>
@@ -280,7 +280,7 @@
                                 </connections>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="140" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nyw-Vl-kTm">
-                                <rect key="frame" x="8" y="317" width="28.5" height="21"/>
+                                <rect key="frame" x="338" y="83" width="28.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -291,13 +291,13 @@
                             <constraint firstAttribute="trailing" secondItem="VNc-La-JSx" secondAttribute="trailing" constant="12" id="3Hv-ic-Rl8"/>
                             <constraint firstItem="VNc-La-JSx" firstAttribute="leading" secondItem="Hyw-Ph-q7u" secondAttribute="leading" constant="11" id="HlJ-h9-Amx"/>
                             <constraint firstItem="PRu-JQ-e35" firstAttribute="top" secondItem="6fh-JA-Gvz" secondAttribute="bottom" constant="8" id="LBY-DF-fNI"/>
+                            <constraint firstItem="VNc-La-JSx" firstAttribute="top" secondItem="nyw-Vl-kTm" secondAttribute="bottom" constant="8" id="RYV-J5-b2y"/>
+                            <constraint firstAttribute="trailing" secondItem="nyw-Vl-kTm" secondAttribute="trailing" constant="8" id="UNu-nz-38B"/>
                             <constraint firstItem="PRu-JQ-e35" firstAttribute="centerY" secondItem="Efv-bF-U0q" secondAttribute="centerY" id="Z0p-Sf-w6X"/>
                             <constraint firstItem="Efv-bF-U0q" firstAttribute="leading" secondItem="Hyw-Ph-q7u" secondAttribute="leading" constant="8" id="bwo-8z-WLy"/>
                             <constraint firstItem="VNc-La-JSx" firstAttribute="top" secondItem="Efv-bF-U0q" secondAttribute="bottom" constant="54" id="eTq-GG-RH9"/>
-                            <constraint firstItem="nyw-Vl-kTm" firstAttribute="leading" secondItem="Hyw-Ph-q7u" secondAttribute="leading" constant="8" id="gAG-Ma-zF2"/>
                             <constraint firstItem="Efv-bF-U0q" firstAttribute="top" secondItem="6fh-JA-Gvz" secondAttribute="bottom" constant="8" id="lvt-Rl-diP"/>
                             <constraint firstAttribute="trailing" secondItem="PRu-JQ-e35" secondAttribute="trailing" constant="8" id="tIE-kj-i2Z"/>
-                            <constraint firstItem="nyw-Vl-kTm" firstAttribute="top" secondItem="VNc-La-JSx" secondAttribute="bottom" constant="3" id="tRx-mE-yCm"/>
                         </constraints>
                     </view>
                     <connections>
@@ -307,7 +307,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dOX-Rc-7u8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2386.4000000000001" y="36.431784107946029"/>
+            <point key="canvasLocation" x="2255" y="36"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="WXZ-z8-8LI">
