@@ -37,6 +37,7 @@ class TimelineViewController: UIViewController, UITableViewDelegate, UITableView
     
     func didPullToRefresh(_ refreshControl: UIRefreshControl){
         fetchTimeline()
+        tableView.reloadData()
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
